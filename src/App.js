@@ -29,6 +29,11 @@ class App extends Component {
               be<span className="ats">ATS</span>
             </h1>
             <small class="text-muted">(Beat Applicant Tracking Software)</small>
+            <p style={{ backgroundColor: "#0f172a", padding: 10, borderRadius: 10, color: "white" }}>
+              Looking for a comprehensive resume solution? Try <a href="https://www.resumaidpro.io" target="_blank">ResumaidPro</a> for a seamless end-to-end resume writing experience.
+              Click <a href="https://www.resumaidpro.io" target="_blank">here</a> to learn more! Use promo code <strong>BEATS10</strong> to get 10% off!
+            </p>
+
             <WordCount submitData={this.handleDataChange} />
           </div>
         </row>
